@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-----font awesome------>
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css" />
+    <!------bootstrap css-------->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="assets/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Top Bar-->
+    <section class="bg-warning">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="m-0 p-0 text-white">Phone :- +91 9933567398</p>
+          </div>
+          <div class="col-lg-6">
+            <p class="m-0 p-0 text-white text-end">Email :-@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-2 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" class="img-brand" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Student Zone
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Student Varification</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Certificate</a></li>
+                <li><a class="dropdown-item" href="#">Id Card</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown2"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Student Zone
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <li>
+                  <a class="dropdown-item" href="#">Student Varification</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Certificate</a></li>
+                <li><a class="dropdown-item" href="#">Id Card</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Course</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Services</a>
+            </li>
+          </ul>
+          <button class="btn main-btn" type="submit">Contact Us</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Slider-->
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item text-center bg-dark vh-100 active slide-1">
+          <div
+            class="container h-100 d-flex align-items-center justify-content-center"
+          >
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">WELCOME TO DK-COMPUTER</h6>
+                <h1 class="display-1 fw-bold text-white">
+                  DK-COMPUTER Aducation
+                </h1>
+                <a href="#" class="main-btn">About Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item text-center vh-100 slide-2">
+          <div
+            class="container h-100 d-flex align-items-center justify-content-center"
+          >
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">WELCOME TO DK-COMPUTER</h6>
+                <h1 class="display-1 fw-bold text-white">
+                  DK-COMPUTER Aducation
+                </h1>
+                <a href="#" class="main-btn">About Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroSlider"
+        data-bs-slide="prev"
+      >
+        <span class="" aria-hidden="true"
+          ><i class="fa-solid fa-chevron-left"></i
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroSlider"
+        data-bs-slide="next"
+      >
+        <span class="" aria-hidden="true"
+          ><i class="fa-solid fa-chevron-right"></i
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--About section-->
+    <section id="about" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-center">
+            <h1>Welcom To DK Computer World</h1>
+          </div>
+          <div class="col-lg-8">
+            <p>
+              Computer Science (DK) is the study of computers and computational
+              systems, encompassing a wide range of topics such as algorithms,
+              programming, data structures, artificial intelligence, machine
+              learning, cybersecurity, and software engineering. It combines
+              both theoretical concepts and practical applications, aiming to
+              solve complex problems and improve systems across various domains.
+              CS is the backbone of modern technology, driving advancements in
+              industries like healthcare, finance, entertainment, and education.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--courses-->
+    <section class="courses">
+      <div class="container">
+        <div class="courses-title py-5">
+          <p>Our Courses</p>
+        </div>
+
+        <div
+          class="courses-slider swiper pb-5"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="feature py-5 px-4 text-center">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-book"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">ADCA</h4>
+                <p class="text-white">DURATION- 1 year</p>
+                <a href="courses.php" class="white-btn"
+                  >Details <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feature py-5 px-4 text-center">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-book"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">ADCA</h4>
+                <p class="text-white">DURATION- 1 year</p>
+                <a href="courses.php" class="white-btn"
+                  >Details <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feature py-5 px-4 text-center">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-book"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">ADCA</h4>
+                <p class="text-white">DURATION- 1 year</p>
+                <a href="courses.php" class="white-btn"
+                  >Details <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feature py-5 px-4 text-center">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-book"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">ADCA</h4>
+                <p class="text-white">DURATION- 1 year</p>
+                <a href="courses.php" class="white-btn"
+                  >Details <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feature py-5 px-4 text-center">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-book"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">ADCA</h4>
+                <p class="text-white">DURATION- 1 year</p>
+                <a href="courses.php" class="white-btn"
+                  >Details <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="feature py-5 px-4 text-center">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-book"></i>
+                </div>
+                <h4 class="text-white mt-4 mb-2">ADCA</h4>
+                <p class="text-white">DURATION- 1 year</p>
+                <a href="courses.php" class="white-btn"
+                  >Details <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+    </section>
+    <!--end courses -->
+
+    <section id="news" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="principal-img">
+              <img src="assets/img/img6.jpg" alt="principal-img" />
+            </div>
+            <div class="principal-details py-2 d-flex justify-content-between">
+              <h4>Ravi Kumar</h4>
+              <a href="#" class="main-btn"
+                >viwe more <i class="fa-solid fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="news-update shadow-sm">
+              <div class="news-wrapper">
+                <div class="news-update-box">
+                  <div class="news-number">44</div>
+                  <div class="news-text">
+                    This is a sample scrolling text that scrolls upward.
+                  </div>
+                </div>
+
+                <div class="news-update-box">
+                  <div class="news-number">45</div>
+                  <div class="news-text">
+                    Another important update scrolling smoothly upward.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="reservation" class="my-5 bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Get in Touch</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              laudantium iure quaerat non.
+            </p>
+          </div>
+        </div>
+        <form action="#" class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="row g-3">
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full name"
+                />
+              </div>
+
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+              </div>
+
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Date" />
+              </div>
+
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Time" />
+              </div>
+
+              <div class="form-group col-md-12">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="7"
+                  class="form-control"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+
+              <div class="form-group col-md-12 text-center">
+                <a href="#" class="main-btn">Send Message</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Insta Post -->
+    <div class="row g-0 py-2">
+      <div class="col-lg-3 col-sm-6">
+        <div class="insta-post">
+          <img src="assets/img/img5.jpg" alt="" />
+          <a href="" class="insta-btn">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="insta-post">
+          <img src="assets/img/img6.jpg" alt="" />
+          <a href="" class="insta-btn">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="insta-post">
+          <img src="assets/img/img8.jpg" alt="" />
+          <a href="" class="insta-btn">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-">
+        <div class="insta-post">
+          <img src="assets/img/img7.jpg" alt="" />
+          <a href="" class="insta-btn">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonial -->
+    <section id="reviews" class="mt-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1 class="text-white">Our Clients Saying</h1>
+            <p class="text-white">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              laudantium iure quaerat non.
+            </p>
+          </div>
+        </div>
+
+        <div id="reviewSlider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#reviewSlider"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#reviewSlider"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="review bg-white px-3 py-2 text-center">
+                    <div class="quote-icon">
+                      <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <p class="mb-0">
+                      There are many variations of passages of have suffered
+                      alteration in some form, by injected humour, or randomised
+                      words whick don't look even slightly believable. if you
+                      are going to use a passage of Lorem Ipsum, you Need to be
+                      sure there isn't
+                    </p>
+                    <div class="person my-3">
+                      <img src="assets/img/review-2.jpg" alt="" />
+                      <h4>Jhon Doe</h4>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="review bg-white px-3 py-2 text-center">
+                    <div class="quote-icon">
+                      <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <p class="mb-0">
+                      There are many variations of passages of have suffered
+                      alteration in some form, by injected humour, or randomised
+                      words whick don't look even slightly believable. if you
+                      are going to use a passage of Lorem Ipsum, you Need to be
+                      sure there isn't
+                    </p>
+                    <div class="person my-3">
+                      <img src="assets/img/review-1.jpg" alt="" />
+                      <h4>Jhon Doe</h4>
+                      <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#reviewSlider"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#reviewSlider"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <!-- About -->
+          <div class="col-lg-4 col-md-6">
+            <h4 class="footer-title">DK Computer</h4>
+            <p>
+              Computer Science (DK) is the study of computers and computational
+              systems including AI, Machine Learning, Cybersecurity and Software
+              Engineering.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-4 col-md-6">
+            <h4 class="footer-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Course</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-lg-4 col-md-12">
+            <h4 class="footer-title">Contact Us</h4>
+            <p>
+              <strong>Address:</strong> Dayalapur Sirsa Chauraha, Handia
+              Prayagraj 221503
+            </p>
+            <p><strong>Phone:</strong> 9554096930</p>
+
+            <!-- Social Icons -->
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <p>DK Computer | Design By Dk</p>
+      </div>
+    </section>
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
