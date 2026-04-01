@@ -14,14 +14,16 @@
   </head>
   <body>
     <!--Top Bar-->
-    <section class="bg-warning">
+    <section class="bg-theam">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <p class="m-0 p-0 text-white">Phone :- +91 0003567008</p>
           </div>
           <div class="col-lg-6">
-            <p class="m-0 p-0 text-white text-end">Email :-info@gmail.com</p>
+            <p class="m-0 p-0 text-white text-lg-end text-start">
+              Email :-info@gmail.com
+            </p>
           </div>
         </div>
       </div>
@@ -189,7 +191,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 d-flex align-items-center">
-            <h1>Welcom To DK Computer World</h1>
+            <h1>
+              Welcom To <span class="about-spanheading">DK.Solutions</span>
+            </h1>
           </div>
           <div class="col-lg-8">
             <p>
@@ -308,31 +312,86 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="principal-img">
-              <img src="assets/img/img6.jpg" alt="principal-img" />
-            </div>
-            <div class="principal-details py-2 d-flex justify-content-between">
-              <h4>Ravi Kumar</h4>
-              <a href="#" class="main-btn"
-                >viwe more <i class="fa-solid fa-angle-right"></i
-              ></a>
+            <div class="">
+              <form action="#" class="row justify-content-center">
+                <div class="intro-text">
+                  <h1>Get in Touch</h1>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sit laudantium iure quaerat non.
+                  </p>
+                </div>
+                <div class="">
+                  <div class="row g-3">
+                    <div class="form-group col-md-6">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Full name"
+                      />
+                    </div>
+
+                    <div class="form-group col-md-6">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email address"
+                      />
+                    </div>
+
+                    <div class="form-group col-md-6">
+                      <input type="date" class="form-control" />
+                    </div>
+
+                    <div class="form-group col-md-6">
+                      <input type="time" class="form-control" />
+                    </div>
+
+                    <div class="form-group col-md-12">
+                      <textarea
+                        rows="6"
+                        class="form-control"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+
+                    <div class="form-group col-md-12 text-center">
+                      <button type="submit" class="main-btn">
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
+
           <div class="col-lg-6">
-            <div class="news-update shadow-sm">
+            <!-- Header -->
+            <div class="news-header">Latest Updates</div>
+
+            <div class="news-update">
+              <!-- Scrolling Content -->
               <div class="news-wrapper">
                 <div class="news-update-box">
                   <div class="news-number">44</div>
-                  <div class="news-text">
-                    This is a sample scrolling text that scrolls upward.
-                  </div>
+                  <div class="news-text">This is a sample scrolling text.</div>
                 </div>
 
                 <div class="news-update-box">
                   <div class="news-number">45</div>
-                  <div class="news-text">
-                    Another important update scrolling smoothly upward.
-                  </div>
+                  <div class="news-text">Another important update.</div>
+                </div>
+
+                <!-- Duplicate -->
+                <div class="news-update-box">
+                  <div class="news-number">44</div>
+                  <div class="news-text">This is a sample scrolling text.</div>
+                </div>
+
+                <div class="news-update-box">
+                  <div class="news-number">45</div>
+                  <div class="news-text">Another important update.</div>
                 </div>
               </div>
             </div>
@@ -343,61 +402,7 @@
 
     <!-- contact -->
     <section id="reservation" class="my-5 bg-light py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 intro-text">
-            <h1>Get in Touch</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
-              laudantium iure quaerat non.
-            </p>
-          </div>
-        </div>
-        <form action="#" class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="row g-3">
-              <div class="form-group col-md-6">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Full name"
-                />
-              </div>
-
-              <div class="form-group col-md-6">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Email address"
-                />
-              </div>
-
-              <div class="form-group col-md-6">
-                <input type="text" class="form-control" placeholder="Date" />
-              </div>
-
-              <div class="form-group col-md-6">
-                <input type="text" class="form-control" placeholder="Time" />
-              </div>
-
-              <div class="form-group col-md-12">
-                <textarea
-                  name=""
-                  id=""
-                  cols="30"
-                  rows="7"
-                  class="form-control"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-
-              <div class="form-group col-md-12 text-center">
-                <a href="#" class="main-btn">Send Message</a>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
+      <div class="container"></div>
     </section>
 
     <!-- Insta Post -->
@@ -579,10 +584,9 @@
           <div class="col-lg-4 col-md-12">
             <h4 class="footer-title">Contact Us</h4>
             <p>
-              <strong>Address:</strong> Dayalapur Sirsa Chauraha, Handia
-              Prayagraj 221503
+              <strong>Address:</strong>Handia Prayagraj Utter Pradesh 221503
             </p>
-            <p><strong>Phone:</strong> 9554096930</p>
+            <p><strong>Phone:</strong> 0004096030</p>
 
             <!-- Social Icons -->
             <div class="social-icons">
