@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend:wght@100..900&family=Pacifico&display=swap");
+
 *,
 *:after,
 *:before {
@@ -136,8 +138,17 @@ p {
 }
 
 /* brandlogo */
-.img-brand {
-  width: 4rem;
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar-brand h1 {
+  font-size: 35px;
+}
+
+.logo-spantext {
+  font-size: 28px;
+  color: #f58d17;
 }
 
 /* Hero-slider */
